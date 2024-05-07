@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+}
+.schermo {
+  background-image: url(https://fastly.picsum.photos/id/908/536/354.jpg?hmac=M2wuBVxh25vxS5l_a0PNxpE_5rsVtgJVC5lbN4HOreA);
+  background-size: cover;
+
+  width: calc(100%-10px);
+  height: calc(100vh-10px);
+  margin: 5px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.schermo img {
+  min-width: 10px;
+  min-height: 10px;
+}
+.box {
+  width: calc(100%-20px);
+  height: calc(100vh-20px);
+  margin: 20px;
+}
